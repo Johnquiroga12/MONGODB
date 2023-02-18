@@ -1,0 +1,19 @@
+use ("BddAlumnos")
+//db.Estudiante.find({ })
+//db.Estudiante.insertOne({"nombre":"John","Apellido":"Quiroga","telefono":098776665})
+// db.Estudiante.insertMany([{"nombre":"Bryan","Apellido":"Orellana","telefono":09845342332},{"nombre":"jose","Apellido":"Espinosa","telefono":09876655556},{"nombre":"diana","Apellido":"Saico","telefono":0988875557}])
+// Insertar un documento cuyo _id sea repetido
+// db.Estudiantes.insertOne(
+ //  {
+   //  _id: "63f034babc0626b755fc9329",
+     //nombre: "Esteban",
+     //apellido: "Baculima",
+     // telefono: "0976878888"
+    //}
+ //);
+ //  Borrar todos los documentos de la colección Estudiantes
+// db.Estudiantes.deleteMany({ });
+// Eliminar la colección Estudiantes
+// db.Estudiantes.drop({ });
+// Eliminar la base de datos BddAlumnos.
+//db.dropDatabase()

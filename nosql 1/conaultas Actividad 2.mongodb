@@ -1,0 +1,61 @@
+use ("Articulos")
+/*db.Articulos.insertMany([
+ {
+ _id: 1,
+ nombre: 'MULTIFUNCION HP DESKJET 2675',
+ rubro: 'impresora',
+ precio: 3000,
+ stock: 20
+ },
+ {
+ _id: 2,
+ nombre: 'MULTIFUNCION EPSON EXPRESSION XP241',
+ rubro: 'impresora',
+ precio: 3700,
+ stock: 5
+ },
+ {
+ _id: 3,
+ nombre: 'LED 19 PHILIPS',
+ rubro: 'monitor',
+ precio: 4500,
+ stock: 2
+ },
+ {
+ _id: 4,
+ nombre: 'LED 22 PHILIPS',
+ rubro: 'monitor',
+ precio: 5700,
+ stock: 4
+ },
+ {
+ _id: 5,
+ nombre: 'LED 27 PHILIPS',
+ rubro: 'monitor',
+ precio: 12000,
+ stock: 1
+ },
+ {
+ _id: 6,
+ nombre: 'LOGITECH M90',
+ rubro: 'mouse',
+ precio: 300,
+ stock: 4
+ }])*/
+// 1
+//db.Articulos.find({ })
+ // 2
+//db.Articulos.find({ rubro: { $ne: "impresora" } }, { })
+// 3
+//db.Articulos.find({ rubro: "mouse"  }, { })
+// 4
+// db.Articulos.find({ precio: { $gte: 5000 } }, { })
+// 5
+//db.Articulos.find({rubro:"impresora", precio: { $gte: 3500 } }, { })
+// 6
+ //db.Articulos.find({stock: {$gte: 0, $lte: 4}})
+//7
+//db.Articulos.deleteMany({rubro: 'impresora'})
+// db.articulos.remove({rubro: 'impresora'})
+//8 
+// db.Articulos.deleteMany({_id: {$gte: 5}})

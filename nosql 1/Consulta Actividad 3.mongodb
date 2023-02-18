@@ -1,0 +1,8 @@
+
+use ("Articulos")
+//devuelve los productos que son impresoras y cuyo precio es menor a 3500.
+//db.Articulos.find({ $and: [ { rubro: 'impresora' }, { precio: { $lt: 3500 } } ] })
+//$or
+//db.Articulos.find({ $or: [ { $and: [ { rubro: 'monitor' }, { precio: { $lt: 5000 } } ] }, { $and: [ { rubro: 'mouse' }, { precio: { $lt: 350 } } ] } ] })
+//$NOT
+db.Articulos.find({ rubro: { $not: { $eq: 'impresora' } } })
